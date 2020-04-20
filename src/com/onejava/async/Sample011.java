@@ -6,7 +6,7 @@ import java.util.concurrent.CompletableFuture;
 import static com.onejava.async.Util.*;
 /*
 1. To illustrate handling exception using whenComplete()
-2. whenComplete() It does not swallow exception and return default value and pipeline continues
+2. whenComplete() It does not swallow exception
 3. It takes result and exception. One of these two objects is null. They are passed to biConsumer.
 4. The returned CompletableFuture returns the same thing as the calling one.
  */
